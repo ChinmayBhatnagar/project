@@ -1,5 +1,9 @@
 {
-  "version": 3.8,
+  "build": {
+    "env": {
+      "PYTHON_VERSION": "3.8"
+    }
+  },
   "builds": [
     {
       "src": "app.py",
